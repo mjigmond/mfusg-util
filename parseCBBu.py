@@ -44,6 +44,6 @@ def parseCBBu(fn=None):
         BUD[(text, arrSize), kper, kstp] = data['data']
     return BUD
 
-fName = '/home/marius/software/mfusg1_5/test/02_quadtree/output/biscayne.cbc'
+fName = 'data/biscayne.cbc'
 cbb = parseCBBu(fName)
 print(cbb.keys())
